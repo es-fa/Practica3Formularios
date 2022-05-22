@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+</head>
+<body>    
+    <div>
+        <Section>
+            <h1>Practica Formularios</h1>
+            <form name="form-productos">
+                <label>Nombre del producto</label>
+                <input name="Nombre_prod" type="text" size="30" placeholder="escribe el nombre del producto"><br>
+                <label>Descripcion del producto</label>
+                <textarea name="descripcion_prod" cols="40" rows="10"
+                    placeholder="este espacio esta destinado para ina descripcion larga del producto"></textarea><br>
+                <label>elije la presentacion</label>
+                <select name="presentacion_prod">
+                    <option value="1">caja</option>
+                    <option value="2">litro</option>
+                    <option value="3">pieza</option>
+                    <option value="4">kilogramo</option>
+                    <option value="5" selected>bolsa</option>
+                </select> <br>
+                <button type="submit">Enviar</button>
+                <button type="reset" autofocus>Reiniciar</button> <br>
+                <label>Seleciona la fecha</label>
+                <input type="date" name="fecha_producto"><br>
+                <label>contraseña</label>
+                <input type="password" name="password" placeholder="ingresa la contraseña"><br>
+                <label>buscar prducto</label>
+                <input type="search" name="Buscardor" placeholder="Buscador"><br>
+                <label>ingrese email</label>
+                <input type="email" name="Correo" placeholder="ingresa el correo"><br>
+                <label>seleccione el producto</label><br>
+                <label for="producto1"><input id="producto1" type="radio" name="prodcuto1-producto2">prodcuto1</label><br>
+                <label for="producto2"><input id="producto2" type="radio" name="prodcuto1-producto2">prodcuto2</label>
+            </form>
+        </Section>
+    </div>
+</body>
+
+</html>
